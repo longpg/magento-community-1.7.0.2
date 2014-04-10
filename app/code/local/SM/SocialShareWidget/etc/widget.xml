@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widgets>
+    <social_share type="socialsharewidget/list" translate="name description" module="socialsharewidget">
+        <name>Social Share Links</name>
+        <description>Adds a simple list of social share links</description>
+        <parameters>
+            <enabled_services>
+                <label>Enabled Services</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>multiselect</type>
+                <source_model>socialsharewidget/services</source_model>
+            </enabled_services>
+            <template translate="label">
+                <label>Frontend Template</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>select</type>
+                <values>
+                    <text translate="label">
+                        <value>socialsharewidget/text.phtml</value>
+                        <label>Text Links</label>
+                    </text>
+                    <icons translate="label">
+                        <value>socialsharewidget/icons.phtml</value>
+                        <label>Icon Links</label>
+                    </icons>
+                </values>
+            </template>
+        </parameters>
+    </social_share>
+</widgets>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SM_SocialShareWidget>
+            <version>0.1.0</version>
+        </SM_SocialShareWidget>
+    </modules>
+    <global>
+        <blocks>
+            <socialsharewidget>
+                <class>SM_SocialShareWidget_Block</class>
+            </socialsharewidget>
+        </blocks>
+        <helpers>
+            <socialsharewidget>
+                <class>SM_SocialShareWidget_Helper</class>
+            </socialsharewidget>
+        </helpers>
+        <models>
+            <socialsharewidget>
+                <class>SM_SocialShareWidget_Model</class>
+            </socialsharewidget>
+        </models>
+    </global>
+</config>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<widgets>
+    <sm_widgetdemo_widget type="sm_widgetdemo/widget">
+        <name>Demo Widget</name>
+        <description type="desc">Demo for creation new widget</description>
+    </sm_widgetdemo_widget>
+</widgets>

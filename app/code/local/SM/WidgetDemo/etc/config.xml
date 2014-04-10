@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SM_WidgetDemo>
+            <version>0.1.0</version>
+        </SM_WidgetDemo>
+    </modules>
+    <global>
+        <models>
+            <sm_widgetdemo>
+                <class>SM_WidgetDemo_Model</class>
+            </sm_widgetdemo>
+        </models>
+        <blocks>
+            <sm_widgetdemo>
+                <class>SM_WidgetDemo_Block</class>
+            </sm_widgetdemo>
+        </blocks>
+        <helpers>
+            <sm_widgetdemo>
+                <class>SM_WidgetDemo_Helper</class>
+            </sm_widgetdemo>
+        </helpers>
+        <resources>
+            <sm_widgetdemo_setup>
+                <setup>
+                    <module>SM_WidgetDemo</module>
+                </setup>
+            </sm_widgetdemo_setup>
+        </resources>
+    </global>
+</config>
